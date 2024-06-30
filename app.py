@@ -19,7 +19,7 @@ load_dotenv()
 
 # Define API keys
 #GOOGLE_API_KEY = os.getenv("GEMINI_API_KEY")
-config_data = json.load(open("/content/drive/MyDrive/RAG-llamaindex/config.json"))
+config_data = json.load(open("/content/RAG/config.json"))
 HF_TOKEN = config_data["HF_TOKEN"]
 #COHERE_API_KEY = os.getenv("COHERE_API_KEY")
 
